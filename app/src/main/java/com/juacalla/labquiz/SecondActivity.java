@@ -18,7 +18,6 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
-        display = (Button) findViewById(R.id.button4);
         logout = (Button) findViewById(R.id.button3);
         tvdisplay=(TextView) findViewById(R.id.textView4);
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
